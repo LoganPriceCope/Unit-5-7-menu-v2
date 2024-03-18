@@ -6,10 +6,6 @@ using UnityEngine.SceneManagement;
 public class MainPlayButtonManager : MonoBehaviour
 {
 
-    private void Awake()
-    {
-        GameObject.DontDestroyOnLoad(this);
-    }
     public void LoadGame()
     {
         SceneManager.LoadScene("Game");

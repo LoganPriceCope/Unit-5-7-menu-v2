@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/*
 public class UIController : MonoBehaviour
 {
     public Slider _musicSlider, _sfxSlider;
@@ -24,3 +25,4 @@ public class UIController : MonoBehaviour
         AudioManager.Instance.SFXVolume(_sfxSlider.value);
     }
 }
+*/
