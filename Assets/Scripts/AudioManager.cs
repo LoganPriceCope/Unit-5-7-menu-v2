@@ -41,6 +41,7 @@ public class AudioManager : MonoBehaviour
     public void PlaySFX(AudioClip clip)
     {
         SFXSource.PlayOneShot(clip);
+        print("play sfx clip");
     }
 }
 // MAKE BUTTONS WORK FIX THE BUG WHERE EVERYTHING STOPS MAKE MORE BUTTONS PRODUCE SOUNDS
